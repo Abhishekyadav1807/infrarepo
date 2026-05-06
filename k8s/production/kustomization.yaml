@@ -3,11 +3,11 @@ kind: Kustomization
 resources:
   - ../base
 images:
-  - name: yourdockerhub/ai-task-backend
+  - name: abhisheky1718/ai-task-backend
     newTag: prod
-  - name: yourdockerhub/ai-task-frontend
+  - name: abhisheky1718/ai-task-frontend
     newTag: prod
-  - name: yourdockerhub/ai-task-worker
+  - name: abhisheky1718/ai-task-worker
     newTag: prod
 patches:
   - target:
