@@ -4,11 +4,11 @@ resources:
   - ../base
 images:
   - name: yourdockerhub/ai-task-backend
-    newTag: staging
+    newTag: 29aafc193cf9870c96d63088bb002e05bf7258f7
   - name: yourdockerhub/ai-task-frontend
-    newTag: staging
+    newTag: 29aafc193cf9870c96d63088bb002e05bf7258f7
   - name: yourdockerhub/ai-task-worker
-    newTag: staging
+    newTag: 29aafc193cf9870c96d63088bb002e05bf7258f7
 patches:
   - target:
       kind: Deployment
