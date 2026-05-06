@@ -14,6 +14,6 @@
 4. Argo CD syncs from this repo automatically.
 
 ## Required Update
-- Replace image names (`yourdockerhub/*`) with actual registry names.
-- Replace `repoURL` in Argo CD application manifest.
-- Replace ingress host from `aitask.local` to your domain.
+- Image names are already set to Docker Hub user `abhisheky1718`.
+- Argo CD `repoURL` is already set to this infra repository.
+- Replace ingress host from `aitask.local` to your domain only when moving from local testing to public access.
